@@ -6,10 +6,10 @@
   opacity: 1.5;
 }
 
-.title {
+.all-image{
   display: flex;
   padding-top: 10vh;
-  padding-left: 10vw;
+  padding-left: 8vw;
 }
 
 .child-title {
@@ -18,48 +18,106 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.image {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .child-image1 {
   background: url(../images/slide1.png) no-repeat;
-  position: absolute;
+  position: static;
   padding-top: 50vh;
   width: 100%;
   background-size: 240px 170px;
-
 }
 
 .child-image2 {
-  background: url(../images/slide2.png) no-repeat;
-  position: absolute;
-  padding-top: 50vh;
+  background: url(../images/slide2.png) no-repeat ;
+  position: static;
+  padding-top: 60vh;
   width: 100%;
   background-size: 240px 170px;
 }
 
 .child-image3 {
   background: url(../images/slide3.png) no-repeat;
-  position: absolute;
-  padding-top: 50vh;
+  position: static;
+  padding-top: 60vh;
   width: 100%;
   background-size: 240px 170px;
 }
 
 .child-image4 {
   background: url(../images/slide4.png) no-repeat;
-  position: absolute;
-  padding-top: 50vh;
+  position: static;
+  padding-top: 60vh;
   width: 100%;
   background-size: 240px 170px;
 }
 
 .child-image5 {
   background: url(../images/slide5.png) no-repeat;
-  position: absolute;
-  padding-top: 50vh;
+  position: static;
+  padding-top: 60vh;
   width: 100%;
   background-size: 240px 170px;
+}
+
+.all-title {
+  display: flex;
+  padding-top: 10vh;
+  padding-left: 7vw;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+ .title-detail1 {
+  margin-left: 1vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+  
+ }
+ .title-detail2 {
+  margin-left: 7vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+ .title-detail3 {
+  margin-left: 6vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+ .title-detail4 {
+  margin-left: 6vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+ .title-detail5 {
+  margin-left: 6vw;
+  font-size: 24px;
+  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+  border-radius: 0.5vw;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  padding-right:2.5vw ;
+ }
+
+ .fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
 }

@@ -1,59 +1,67 @@
-.ref-disable {
-  opacity: 1.5;
-}
+  .ref-disable {
+    opacity: 1.5;
+  }
 
-.icon-home.active {
-  background-image: url(../global/images/nav/home.png);
-}
+  .icon-home.active {
+    background-image: url(../global/images/nav/home.png);
+  }
 
-.main-bg {
-  background: url(../images/Asset1.png) no-repeat center top / 100% auto;
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  transform: translateX(20%);
-  display: flex;
-  z-index: 1
- 
-}
-
-
-.all-content {
-  display: flex;
-}
-
-.main-ct {
-  display: flex;
-  z-index: 2;
-  padding-top: 40vh;
-  padding-left: 8vw;
-}
-.ct {
-  width: 490px; 
-  height: 380px; 
-  margin: 2vw; 
-  text-align: center;
+  .main-bg {
+    background: url(../images/Asset1.png) no-repeat center top / 100% auto;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    transform: translateX(20%);
+    display: flex;
+    z-index: 1
   
-}
-.title {
-  background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
-  font-family: 'Roboto', sans-serif;
-  font-size: 32px;
-  color: white;
-  border-radius: 2vw 2vw 0 0;
-  padding: 1vh;
-}
+  }
 
-.content {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  background-color: #fff;
-  color: rgb(65, 123, 86);
-  border-width: 0.3vh; 
-  border-style: solid;
-  border-color: linear-gradient(to left, rgb(57, 237, 248), rgb(8, 71, 37)) 1;
-  border-image-slice: 1;
-  border-radius: 0 0 2vw 2vw;
-  padding: 4vh 1vw 2vh 1vw; 
-  box-sizing: border-box; 
-}
+
+  .all-content {
+    display: flex;
+  }
+
+  .main-ct {
+    display: flex;
+    z-index: 2;
+    padding-top: 40vh;
+    padding-left: 8vw;
+  }
+  .ct {
+    width: 490px; 
+    height: 380px; 
+    margin: 2vw; 
+    text-align: center;
+    
+  }
+  .title {
+    background: linear-gradient(to right, rgb(8, 71, 37), rgb(57, 237, 248));
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: white;
+    border-radius: 2vw 2vw 0 0;
+    padding: 1vh;
+  }
+
+  .content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: #fff;
+    color: rgb(65, 123, 86);
+    border-width: 0.3vh; 
+    border-style: solid;
+    border-color: linear-gradient(to left, rgb(57, 237, 248), rgb(8, 71, 37)) 1;
+    border-image-slice: 1;
+    border-radius: 0 0 2vw 2vw;
+    padding: 4vh 1vw 2vh 1vw; 
+    box-sizing: border-box; 
+  }
+
+  .ct {
+    width: 490px;
+    height: 380px;
+    margin: 2vw;
+    text-align: center;
+    animation: fadeInUp 1s ease-out; 
+  }
