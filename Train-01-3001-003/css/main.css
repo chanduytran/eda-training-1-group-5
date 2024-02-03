@@ -1,0 +1,76 @@
+.bg {
+    background: url(../images/rectangle_background.png) no-repeat center bottom / 130% 170%,
+        url(../images/background.png) no-repeat center center / 100% 100%;
+}
+.content{
+    display: flex;
+}
+
+.content-image {
+    background: url(../images/contentImage.png) no-repeat center right / contain;
+    min-height: 8vh;
+    margin-top: 10vh;
+    width: 54vw;
+    height: 42vw; 
+    flex: 1;  
+    border-radius: 50%;
+    box-shadow: -2px 2px 15px 1px gray;
+}
+
+.image {
+    background:
+        url(../images/popup.png) no-repeat center / contain;
+    width: 30vw;
+    height: 18vh;
+    position: relative;
+}
+
+h4 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 1vh;
+    padding-top: 5vh;
+}
+
+.popnote {
+    background: url(../images/popnote.png) no-repeat center / 14% auto;
+    height: 24vh;
+    width: 24vw;
+    position: absolute;
+    bottom: 4vh;
+    left: 14vw;
+}
+
+h2{
+    padding-top: 10vh;
+ 
+}
+
+.content{
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.text-content{
+    margin-top: 12vh;
+    flex: 1;
+    
+}
+.hiddenDiv{
+    margin-top: -4vh;
+    display: none;
+    border: 1px solid green; /* Thêm viền */
+    border-radius: 0 0 1vw 1vw; /* Bo góc */
+    margin-right: 13vw;
+    padding: 3vh;
+    padding-bottom: 2vh;
+}
+.test{
+    color: black;
+}
+.space{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+
+

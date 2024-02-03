@@ -1,0 +1,65 @@
+.icon-home.active {
+  background-image: url(../global/images/nav/home.png);
+}
+
+.ref-disable {
+  opacity: 1.5;
+}
+
+.title {
+  display: flex;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+
+.child-title {
+  padding-right: 10vw;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+}
+
+.child-image1 {
+  background: url(../images/slide1.png) no-repeat;
+  position: absolute;
+  padding-top: 50vh;
+  width: 100%;
+  background-size: 240px 170px;
+
+}
+
+.child-image2 {
+  background: url(../images/slide2.png) no-repeat;
+  position: absolute;
+  padding-top: 50vh;
+  width: 100%;
+  background-size: 240px 170px;
+}
+
+.child-image3 {
+  background: url(../images/slide3.png) no-repeat;
+  position: absolute;
+  padding-top: 50vh;
+  width: 100%;
+  background-size: 240px 170px;
+}
+
+.child-image4 {
+  background: url(../images/slide4.png) no-repeat;
+  position: absolute;
+  padding-top: 50vh;
+  width: 100%;
+  background-size: 240px 170px;
+}
+
+.child-image5 {
+  background: url(../images/slide5.png) no-repeat;
+  position: absolute;
+  padding-top: 50vh;
+  width: 100%;
+  background-size: 240px 170px;
+}
